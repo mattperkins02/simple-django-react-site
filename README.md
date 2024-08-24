@@ -19,6 +19,7 @@ pip (Python package installer)
 
 Setup
 1. For the backend:
+
 a. Navigate to the backend directory:
 cd backend
 
@@ -41,6 +42,7 @@ f. Start the Django server:
 python manage.py runserver
 
 2. For the frontend
+
 a. Navigate to the frontend directory:
 cd frontend
 
