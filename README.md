@@ -18,34 +18,34 @@ Python (for Django)
 pip (Python package installer)
 
 Setup
-For the backend:
-Navigate to the backend directory:
+1. For the backend:
+a. Navigate to the backend directory:
 cd backend
 
-Create a virtual environment:
+b. Create a virtual environment:
 python -m venv venv
 
-Activate the virtual environment:
+c. Activate the virtual environment:
 On Windows:
 .\venv\Scripts\activate
 On macOS/Linux:
 source venv/bin/activate
 
-Install dependencies:
+d. Install dependencies:
 pip install -r requirements.txt
 
-Run migrations:
+e. Run migrations:
 python manage.py migrate
 
-Start the Django server:
+f. Start the Django server:
 python manage.py runserver
 
-For the frontend
-Navigate to the frontend directory:
+2. For the frontend
+a. Navigate to the frontend directory:
 cd frontend
 
-Install dependencies:
+b. Install dependencies:
 npm install
 
-Start the React development server:
+c. Start the React development server:
 npm start
